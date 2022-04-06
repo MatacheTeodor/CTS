@@ -38,11 +38,7 @@ public class Account {
 				+ account_Type + ";";
 	}
 
-	public void print() {
-		int vb = 10;
-		System.out.println("This is an account");
-	}
-	
+
 	public Account(double value, double rate, int account_Type) throws Exception {
 		if (value < 0)
 			throw new Exception();
