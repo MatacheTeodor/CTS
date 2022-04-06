@@ -5,7 +5,6 @@ public class CalculateFee {
 		public static double calculate(Account[] accounts) {
 			double totalFee = 0.0;
 			Account account;
-			int temp = 365;
 			for (int i = 0; i < accounts.length; i++) {
 				account = accounts[i];
 				if (account.account_Type == Account.PREMIUM || account.account_Type == Account.SUPER_PREMIUM)
